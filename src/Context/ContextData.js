@@ -12,9 +12,9 @@ const ContextData = (props) => {
   }, []);
 
   const tableData = () => {
-    return data.map((item) => {
+    return data.map((item,index) => {
       return (
-        <tr>
+        <tr key={index}>
           <td>{item.Name}</td>
           <td>{item.age}</td>
           <td>{item.sex}</td>

@@ -1,7 +1,7 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-
+import { BsFillSendFill } from "react-icons/bs"
 import * as yup from "yup";
 import axios from "axios";
 import { UserContext } from "../Context/ContextData";
@@ -406,7 +406,8 @@ function Form() {
         </div>
       </div>
       <div className="main-2">
-        <input type="submit" />
+        {/* <input type="submit" value="Submit Form"/> */}
+        <button className="sub-btn" type="submit">Submit Form <BsFillSendFill className="icons"/></button>
       </div>
     </form>
   );
