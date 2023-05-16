@@ -43,28 +43,6 @@
       "sex": "Male",
       "Name": "Jason",
       "id": 2
-    },
-    {
-      "Emergency_Contact": "9856321470",
-      "pincode": "949420",
-      "idType": "PAN",
-      "govtId": "HGCDF2000G",
-      "nationality": "USA",
-      "bloodgroup": "B+",
-      "marital": "Single",
-      "religion": "Shinto",
-      "occupation": "Software Developer",
-      "email": "dsfsdf@gmail.com",
-      "age": "23",
-      "address": "Dehradun UK",
-      "guardian_name": "Saimon Vali",
-      "city": "city1",
-      "state": "state3",
-      "country": "INDIA",
-      "guardian": "Father",
-      "sex": "Male",
-      "Name": "Janmo",
-      "id": 3
     }
  
   ]
